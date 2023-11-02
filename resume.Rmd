@@ -1,0 +1,31 @@
+---
+title: "BigBadApp1e's resume"
+author: "Congrui Zhang"
+date: "2023-11-02"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+# Congrui Zhang
+cz2750@cumc.columbia.edu | Phone: 7404080364
+
+Address:60 HAVEN Ave, New York, Nwe York
+
+# Education
+## Columbia University, New York, USA       			                         Aug.2022-May.2024
+•	Master of Science, Epidemiology
+
+## Muskingum University, Ohio, USA      			                             Aug.2021-May.2022    
+•	Bachelor of Arts, Public Health  
+
+•	Award: Third Prize Academic Scholarship awarded by Muskingum University 2021 (for 25%) 
+
+## North China Institute of Science & Technology, Hebei, China			       Sep. 2018 – July. 2021
+•	Bachelor of Engineering, Safety Engineering
+
+•	GPA: 78.2/100.0 cumulative GPA
+
+# It's sad, I haven't finished the rest of the resume section yet.
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjYvbBqYyaTzRcXBKvghEZtEWujuBe2UTJmJ9FwXccg&s)
