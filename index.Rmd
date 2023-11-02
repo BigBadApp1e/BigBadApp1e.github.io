@@ -1,0 +1,18 @@
+---
+title: "BigBadApp1e's website"
+author: "Congrui Zhang"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# BigBadApp1e!!!
+My name is Congrui Zhang, and I am currently a second-year MS student specializing in Epidemiology at Columbia University's Mailman School of Public Health. At present, I am in the process of designing a highly engaging personal website.
+
+# BigBadApp1e's LINK!
+[GitHub](https://github.com/BigBadApp1e)
+[BigBadApp1e's resume](resume.html)
+![](https://cdnb.artstation.com/p/assets/images/images/038/999/579/small/suke-7.jpg?1624647463)
+[Valoranta](https://tracker.gg/valorant/profile/riot/BigBadApp1e%23NA1/overview)
