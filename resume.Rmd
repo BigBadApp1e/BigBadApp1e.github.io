@@ -29,3 +29,6 @@ Address:60 HAVEN Ave, New York, Nwe York
 
 # It's sad, I haven't finished the rest of the resume section yet.
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjYvbBqYyaTzRcXBKvghEZtEWujuBe2UTJmJ9FwXccg&s)
+
+# I'll put my outdated resume file here though :)
+[My outdated resume](https://github.com/BigBadApp1e/BigBadApp1e.github.io/raw/main/CV%20Congrui%20Zhang.docx)
