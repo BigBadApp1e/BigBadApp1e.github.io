@@ -1,0 +1,57 @@
+---
+title: "Flexdashboard"
+author: "Congrui Zhang"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    navbar:
+    - title: "Home"
+      href: index.html
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(tidyverse)
+
+knitr::opts_chunk$set(
+	echo = FALSE,
+	warning = FALSE,
+	message = FALSE
+)
+```
+
+# Load and Prepare the Data
+
+```{r}
+nynoaa_sample <- read_csv("nynoaadat.csv")
+nynoaa_random <- nynoaa_sample[sample(1:nrow(nynoaa_sample
+), 1000), ]
+```
+
+# Precipitation vs Snow Scatter Plot
+
+```{r}
+cleaned_data <- nynoaa_random %>% 
+  filter(!is.na(prcp) & !is.na(snow))
+plot_ly(cleaned_data, x = ~prcp, y = ~snow, type = 'scatter', mode = 'markers') %>%
+  layout(title = "Precipitation vs Snow")
+```
+# Temperature Over Time Line Plot
+```{r}
+temp_data <- nynoaa_random %>%
+  filter(!is.na(date) & !is.na(tmax))
+
+plot_ly(temp_data, x = ~date, y = ~tmax, type = 'scatter', mode = 'lines') %>%
+  layout(title = "Max Temperature Over Time")
+```
+# Minimum Temperature Histogram
+```{r}
+min_temp_data <- nynoaa_random %>%
+  filter(!is.na(tmin))
+
+plot_ly(min_temp_data, x = ~tmin, type = 'histogram') %>%
+  layout(title = "Distribution of Minimum Temperatures")
+```
+
